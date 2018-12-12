@@ -1,5 +1,5 @@
 import cv2
-
+#tttttttttttttttttttttttttttttt
 import numpy as np
 
 import cv2
@@ -7,7 +7,7 @@ import numpy as np
 
 def nothing(x):
     pass
-
+test = 11
 # Create a black image, a window
 img = np.zeros((300,512,3), np.uint8)
 cv2.namedWindow('image')
@@ -20,7 +20,7 @@ cv2.createTrackbar('B','image',0,255,nothing)
 # create switch for ON/OFF functionality
 switch = '0 : OFF \n1 : ON'
 cv2.createTrackbar(switch, 'image',0,1,nothing)
-
+#
 while(1):
     cv2.imshow('image',img)
     k = cv2.waitKey(1) & 0xFF
