@@ -7,7 +7,7 @@ import numpy as np
 
 def nothing(x):
     pass
-
+test = 1
 # Create a black image, a window
 img = np.zeros((300,512,3), np.uint8)
 cv2.namedWindow('image')
